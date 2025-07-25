@@ -2,14 +2,14 @@ const fs = require("fs");
 require("dotenv").config();
 
 let config = {
-    prefix: process.env.PREFIX || "!",
+    prefix: process.env.PREFIX || "/",
     ownerName: process.env.OWNER_NAME || "BŌTGØDJÅY",
     ownerNumber: process.env.OWNER_NUMBER || "2349163481768",
     mode: process.env.MODE || "private",
     region: process.env.REGION || "Nigeria",
-    botName: process.env.BOT_NAME || "LŌRD H¡GH BØT",
-    exifPack: process.env.EXIF_PACK || "HIM",
-    exifAuthor: process.env.EXIF_AUTHOR || "𝑴𝒂𝒅𝒆 𝑩𝒚 HIM",
+    botName: process.env.BOT_NAME || "𝐑𝐢𝐚𝐬 𝐆𝐫𝐞𝐦𝐨𝐫𝐲",
+    exifPack: process.env.EXIF_PACK || "𝐑𝐢𝐚𝐬 𝐆𝐫𝐞𝐦𝐨𝐫𝐲",
+    exifAuthor: process.env.EXIF_AUTHOR || "𝑴𝒂𝒅𝒆 𝑩𝒚 𝑻𝒐𝒙𝒙𝒊𝒄",
     timeZone: process.env.TIME_ZONE || "Africa/Lagos",
     presenceStatus: process.env.PRESENCE_STATUS || "typing",
     autoRead: process.env.AUTO_READ?.toLowerCase() === "false" || false,
